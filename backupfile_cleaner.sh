@@ -10,7 +10,7 @@
 #Set clean file's type
 
 file_type=gz
-
+#add options,file type and file want save number
 #Get old files list.
 old_list=`ls -t $PWD/*.$file_type 2>/dev/null|tail -n +4`
 echo $old_list
