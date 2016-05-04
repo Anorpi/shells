@@ -134,8 +134,8 @@ else
 	exit
 fi
 ##Kill project pid and start project
-echo "+++++++++++++++++++++++++"
+echo "++++++++++++++++++++++++++"
 ps aux|grep $project_name
 project_pid=`ps aux|grep $project_name|awk '{print $2}'`
 echo -e "Select $project_name project's pid:\n$project_pid"
-echo "+++++++++++++++++++++++++"
+echo "+++++++++++++++++++++++++++"
