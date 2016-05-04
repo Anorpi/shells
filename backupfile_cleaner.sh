@@ -10,13 +10,6 @@
 #Set clean file's type
 
 file_type=gz
-##Check path.
-#if [ -d ../webapps ];then
-#	PWD=`pwd`
-#else
-#	echo "Not in ./webapps path,plase check."
-#	exit
-#fi
 
 #Get old files list.
 old_list=`ls -t $PWD/*.$file_type 2>/dev/null|tail -n +4`
