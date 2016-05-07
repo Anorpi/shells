@@ -4,8 +4,6 @@
 #   Type:function
 #   Language:bash shell  
 #   Date:2016-4-22  
-#   Author:Jia Jianjun  
-#   Email:jiajianjun(at)time2011.com  
 #--------------------------
 #Set clean file's type
 
