@@ -9,11 +9,14 @@
 #--------------------------
 #Set clean file's type
 
+#file's type will delete
 file_type=gz
+
+#just save 3 newest files,default
+file_num=4
 #add options,file type and file want save number
 #Get old files list.
-old_list=`ls -t $PWD/*.$file_type 2>/dev/null|tail -n +4`
-echo $old_list
+old_list=`ls -t $PWD/*.$file_type 2>/dev/null|tail -n +$file_num`
 
 #Delete old files if have.
 if [ -z "$old_list" ];then
