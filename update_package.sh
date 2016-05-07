@@ -4,8 +4,6 @@
 #   type:function
 #   language:bash shell
 #   date:2016-4-25
-#   author:jia jianjun
-#   email:jiajianjun(at)time2011.com
 #--------------------------
 
 #Make ls -lt --time-style output ture
