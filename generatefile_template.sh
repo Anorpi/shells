@@ -3,7 +3,6 @@
 cat <<EOF>test.txt
 #one line
 #two line
-#three line
 servername 8.8.8.8
 EOF
 
