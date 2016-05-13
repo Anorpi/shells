@@ -136,4 +136,22 @@ echo "++++++++++++++++++++++++++"
 ps aux|grep $project_name/endorsed
 project_pid=`ps aux|grep $project_name/endorsed|awk '{print $2}'`
 echo -e "Select $project_name project's pid:\n$project_pid"
+
+
+read killpid
+
+for n in $project_pid
+do
+        if [ "$killpid" == "$n" ]; then
+	        kill -9 $killpid
+		echo "killed $killpid"
+		break
+        fi
+done
+
 echo "+++++++++++++++++++++++++++"
+#get project's tomcat path, restart it.tail -f  the catalina.out
+
+
+
+
