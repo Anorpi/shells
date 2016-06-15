@@ -134,7 +134,7 @@ fi
 ##Kill project pid and start project
 echo "++++++++++++++++++++++++++"
 ps aux|grep $project_name/endorsed
-project_pid=`ps aux|grep $project_name/endorsed|awk '{print $2}'`
+project_pid=`ps aux|grep $project_name/endorsed|grep -v grep|awk '{print $2}'`
 echo -e "Select $project_name project's pid:\n$project_pid"
 
 
