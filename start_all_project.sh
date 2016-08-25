@@ -1,6 +1,5 @@
 #!/bin/bash
 #this script execute in /etc/rc.local
-#auth:jiajianjun
 username=gcweb
 user_home=`cat /etc/passwd|grep ${username}|cut -f6 -d':'`
 task_list=`find ${user_home}/usr/local/* -iname startup.sh`
