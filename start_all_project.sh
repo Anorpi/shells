@@ -10,8 +10,8 @@ do
 	sleep 5
 done
 #start redis server
-su - gcweb -c "redis-server /etc/redis.conf"
-su - gcweb -c "redis-server /etc/redis_hw_6381.conf"
-su - gcweb -c "redis-server /etc/redis_zs_6380.conf"
+su - gcweb -c "/usr/local/bin/redis-server /etc/redis.conf"
+su - gcweb -c "/usr/local/bin/redis-server /etc/redis_hw_6381.conf"
+su - gcweb -c "/usr/local/bin/redis-server /etc/redis_zs_6380.conf"
 #start jenkins server
 su - gcweb -c "java -jar /home/gcweb/home/jenkins/ROOT/jenkins.war --httpPort=12473 &"
