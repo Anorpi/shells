@@ -152,7 +152,6 @@ done
 echo "+++++++++++++++++++++++++++"
 #get project's tomcat path, restart it.tail -f  the catalina.out
 
-#mmbang test mongod ssh root@1.1.1.1
 
 
 
