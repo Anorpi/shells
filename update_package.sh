@@ -151,7 +151,7 @@ done
 
 echo "+++++++++++++++++++++++++++"
 #get project's tomcat path, restart it.tail -f  the catalina.out
-#mmbang xxx@mmbang.net ssh@1.1.1.1 测试
+
 
 
 
